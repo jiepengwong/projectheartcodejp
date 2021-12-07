@@ -6,18 +6,26 @@
   </div> -->
 
   <Navbar />
+  <section id="landing">
   <LandingSection/>
+  </section>
+  <section id="educate">
+    <Statistics/>
+  </section>
 
 </template>
 
 <script>
   import Navbar from "@/components/NavBar.vue";
   import LandingSection from "@/components/LandingSection.vue"
+    import Statistics from "@/components/Statistics.vue"
+
 
   export default {
     components: {
       Navbar,
-      LandingSection
+      LandingSection,
+      Statistics
     },
 
     data() {},

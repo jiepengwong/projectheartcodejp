@@ -17,7 +17,7 @@
         <div class="col-lg-8 align-self-baseline text-center">
           <h3 class="mb-5" >Mental illness is a real issue and we need to normalise this</h3>
 
-          <a class="btn btn-xl text-white"> Find out more</a>
+          <a class="btn btn-xl text-white">Find out more</a>
         </div>
 
       </div>
