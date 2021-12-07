@@ -13,6 +13,8 @@
        
       </ul>
     </nav>
+    <button class="btn btn-primary">gET hELP</button>
+
   </header>
 </template>
 
@@ -23,7 +25,6 @@
 </script>
 
 <style scoped>
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 
   * {
     box-sizing: border-box;
@@ -53,7 +54,7 @@
   }
 
   .nav-link a {
-    display: inline-block;
+    display: inline-block; 
     padding: 0px 20px;
   }
 </style>

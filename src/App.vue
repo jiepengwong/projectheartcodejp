@@ -6,15 +6,18 @@
   </div> -->
 
   <Navbar />
-  <router-view />
+  <LandingSection/>
+
 </template>
 
 <script>
   import Navbar from "@/components/NavBar.vue";
+  import LandingSection from "@/components/LandingSection.vue"
 
   export default {
     components: {
       Navbar,
+      LandingSection
     },
 
     data() {},
@@ -31,6 +34,9 @@
 </script>
 
 <style>
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap');
+
   * #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
