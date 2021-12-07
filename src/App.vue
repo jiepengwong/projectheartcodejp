@@ -42,8 +42,7 @@
 </script>
 
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&family=Playfair+Display&display=swap');
 
   * #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -64,5 +63,8 @@
 
   #nav a.router-link-exact-active {
     color: #42b983;
+  }
+  #educate{
+    background: #dbe9f4;
   }
 </style>
