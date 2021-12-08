@@ -17,6 +17,10 @@
     <Symptoms/>
   </section>
 
+  <section id="tips">
+    <Tips/>
+  </section>
+
 </template>
 
 <script>
@@ -24,6 +28,8 @@
   import LandingSection from "@/components/LandingSection.vue"
   import Statistics from "@/components/Statistics.vue"
   import Symptoms from "@/components/Symptoms.vue"
+  import Tips from "@/components/Tips.vue"
+
 
 
 
@@ -32,7 +38,8 @@
       Navbar,
       LandingSection,
       Statistics,
-      Symptoms
+      Symptoms,
+      Tips
     },
 
     data() {},
@@ -69,9 +76,17 @@
   }
 
   #nav a.router-link-exact-active {
-    color: #42b983;
+    color: #36ebff;
   }
   #educate{
-    background: #dbe9f4;
+    background: #e4faff;
+  }
+
+   .highlight {
+    color: #00c2cb;
+  }
+
+  #tips{
+    background:  #ffe6cd;
   }
 </style>

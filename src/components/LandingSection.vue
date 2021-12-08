@@ -59,9 +59,7 @@
     opacity: 100;
   }
 
-  .highlight {
-    color: #00c2cb;
-  }
+ 
 
   .h-100 {
     height: 100% !important;

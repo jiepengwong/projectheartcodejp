@@ -1,32 +1,38 @@
 <template>
   <div class="container">
-    <h1 class="py-5 text-center">Mental Health Statistics (2017)</h1>
+    <h1 class="py-5 text-center"><b>Mental Health Statistics (2017)</b></h1>
     <div class="row">
       <div class="col-sm-6">
-        Statistics for individual mental illness types
-
         <canvas id="myChart" ref="myChart"></canvas>
       </div>
       <div class="mt-3 col-sm-6">
-        Statistics for suicide rate (USA)
-
         <canvas id="lineChart" ref="lineChart"></canvas>
       </div>
     </div>
 
+    <div class="row mt-2">
+      <div class="col-sm-6">
+        <h4>Statistics for individual mental illness types</h4>
+      </div>
+
+      <div class="col-sm-6">
+        <h4>Statistics for suicide rate (USA)</h4>
+      </div>
+    </div>
+
     <div class="row">
-        <div class="col animation">
-            <h1 class="mt-5">792 million</h1>
+      <div class="col animation">
+        <h1 class="mt-5">792 million</h1>
 
-            <h4 class="my-5">There are about <b><u>792 million</u></b> people suffering from mental health diseases. 
-                Sucide rates are generally on the rise every year. 
-          </h4>
+        <h4 class="my-5">
+          There are about <b><u>792 million</u></b> people suffering from mental
+          health diseases. Sucide rates are generally on the rise every year.
+        </h4>
 
-          <h4> <b>Let us normalise this..</b></h4>
+        <h4><b>Let us normalise this..</b></h4>
 
-          <h4>Scroll down to find out how</h4>
-        </div>
-
+        <h4>Scroll down to find out how</h4>
+      </div>
     </div>
   </div>
 </template>
@@ -122,37 +128,36 @@
     font-family: "Playfair Display", serif;
   }
 
-
-  .animation h1{
-  background: orange;
-  width: auto;
-  display: inline-block;
-  overflow: hidden;
-  border-right: .15em solid white;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .15em;
-  animation: typing 5s steps(100, end),blink-caret 1s step-end infinite;
+  .animation h1 {
+    background: orange;
+    width: auto;
+    display: inline-block;
+    overflow: hidden;
+    border-right: 0.15em solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 5s steps(100, end), blink-caret 1s step-end infinite;
     animation-iteration-count: infinite;
-
   }
-
-
 
   @keyframes typing {
- from {max-width: 0}
-  to {max-width: 100%}
-}
-/* The typewriter cursor effect */
-
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent
+    from {
+      max-width: 0;
+    }
+    to {
+      max-width: 100%;
+    }
   }
-  50% {
-    border-color: black;
+  /* The typewriter cursor effect */
+
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
   }
-}
-
-
 </style>

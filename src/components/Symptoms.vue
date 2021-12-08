@@ -1,5 +1,5 @@
 <template>
-  <h1 class="my-4">Common Symptoms Of Mental Illnesses</h1>
+  <h1 class="py-5 "><b>Common Symptoms Of Mental Illnesses</b></h1>
 
   <div class="cards-wrapper py-4">
     <div
@@ -7,7 +7,7 @@
       :key="card.title"
       v-for="card of cards"
     >
-      <h5 class="service-card-title">{{ card.title }}</h5>
+      <h4 class="service-card-title "><u>{{ card.title }}</u></h4>
       <img
         class="my-4 service-img"
         :src="require(`../assets/${card.imageSrc}.png`)"
@@ -64,6 +64,11 @@
 </script>
 
 <style scoped>
+ * {
+    /* color: white; */
+    font-family: "Playfair Display", serif;
+    
+  }
   .cards-wrapper {
     display: flex;
     flex-wrap: wrap;
