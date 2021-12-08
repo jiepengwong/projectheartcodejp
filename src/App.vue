@@ -13,19 +13,26 @@
     <Statistics/>
   </section>
 
+  <section id="symptoms">
+    <Symptoms/>
+  </section>
+
 </template>
 
 <script>
   import Navbar from "@/components/NavBar.vue";
   import LandingSection from "@/components/LandingSection.vue"
-    import Statistics from "@/components/Statistics.vue"
+  import Statistics from "@/components/Statistics.vue"
+  import Symptoms from "@/components/Symptoms.vue"
+
 
 
   export default {
     components: {
       Navbar,
       LandingSection,
-      Statistics
+      Statistics,
+      Symptoms
     },
 
     data() {},

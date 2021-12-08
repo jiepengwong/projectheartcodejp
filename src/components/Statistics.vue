@@ -18,10 +18,13 @@
         <div class="col animation">
             <h1 class="mt-5">792 million</h1>
 
-            <h4>There are about 792 million people suffering from mental health diseases. 
+            <h4 class="my-5">There are about <b><u>792 million</u></b> people suffering from mental health diseases. 
                 Sucide rates are generally on the rise every year. 
-                Let us normalise this. 
-                Scroll down to find out how.</h4>
+          </h4>
+
+          <h4> <b>Let us normalise this..</b></h4>
+
+          <h4>Scroll down to find out how</h4>
         </div>
 
     </div>
