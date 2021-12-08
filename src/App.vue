@@ -21,6 +21,10 @@
     <Tips/>
   </section>
 
+  <section id="helpline">
+    <HelpLine/>
+  </section>
+
 </template>
 
 <script>
@@ -29,6 +33,8 @@
   import Statistics from "@/components/Statistics.vue"
   import Symptoms from "@/components/Symptoms.vue"
   import Tips from "@/components/Tips.vue"
+  import HelpLine from "@/components/Helpline.vue"
+
 
 
 
@@ -39,7 +45,8 @@
       LandingSection,
       Statistics,
       Symptoms,
-      Tips
+      Tips,
+      HelpLine
     },
 
     data() {},
