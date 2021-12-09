@@ -28,10 +28,10 @@
           <div class="row">
           <div class="col-md-3 "></div>
           <div class="col-md-3 ">
-            <a href="#educate" class="btn btn-xl text-white">Find out more</a>
+            <a href="#educate" class="btn btn-xl text-white mobile">Find out more</a>
           </div>
           <div class="col-md-3">
-            <a href="#helpline" class="btn btn-xl text-white">Seek Help Now</a>
+            <a href="#helpline" class="btn btn-xl text-white mobile">Seek Help Now</a>
           </div>
           <div class="col-md-3 "></div>
         </div>
@@ -109,5 +109,12 @@
 
   .btn-xl:hover {
     opacity: 1;
+  }
+
+
+  @media screen and (max-width: 700px){
+    .mobile{
+      display: none;
+    }
   }
 </style>
