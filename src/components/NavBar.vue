@@ -8,6 +8,8 @@
         <a href="#educate">Statistics</a>
         <a href="#tips">Tips</a>
         <a href="#helpline">Helpline</a>
+        <a href="#inspiration">Stories</a>
+
       </ul>
     </nav>
   </header>
@@ -35,7 +37,7 @@
         if (initialScroll < window.scrollY) {
           console.log("moving");
           nav.classList.add("nav--hidden");
-        } else if ((initialScroll == window.scrollY) == 0) {
+        } else if (initialScroll == window.scrollY == 0) {
           nav.classList.remove("nav--hidden");
         }
 

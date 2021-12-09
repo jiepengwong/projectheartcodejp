@@ -7,27 +7,29 @@
 
   <Navbar />
   <section id="landing">
-
-  <LandingSection/>
+    <LandingSection />
   </section>
   <section id="educate">
-    <Statistics/>
+    <Statistics />
   </section>
 
   <section id="symptoms">
-    <Symptoms/>
+    <Symptoms />
   </section>
 
   <section id="tips">
-    <Tips/>
+    <Tips />
   </section>
 
   <section id="helpline">
-    <HelpLine/>
+    <HelpLine />
   </section>
 
-  <Footer/>
+  <section id="inspiration">
+    <Inspiration />
+  </section>
 
+  <Footer />
 </template>
 
 <script>
@@ -38,6 +40,8 @@
   import Tips from "@/components/Tips.vue"
   import HelpLine from "@/components/Helpline.vue"
   import Footer from "@/components/Footer.vue"
+    import Inspiration from "@/components/Inspiration.vue"
+
 
 
 
@@ -51,17 +55,18 @@
       Symptoms,
       Tips,
       HelpLine,
-      Footer
+      Footer,
+      Inspiration
     },
 
     data() {},
 
-   
+
   };
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&family=Playfair+Display&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&family=Playfair+Display&display=swap");
 
   * #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -83,18 +88,18 @@
   #nav a.router-link-exact-active {
     color: #36ebff;
   }
-  #educate{
+  #educate {
     background: #e4faff;
   }
 
-   .highlight {
+  .highlight {
     color: #00c2cb;
   }
 
-  #tips{
-    background:  #ffe6cd;
+  #tips {
+    background: #ffe6cd;
   }
- 
-
-  
+  #inspiration{
+    background: #e6ddca
+  }
 </style>
