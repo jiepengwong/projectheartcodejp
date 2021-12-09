@@ -1,6 +1,8 @@
 <template>
   <h1 class="py-5 "><b>Common Symptoms Of Mental Illnesses</b></h1>
 
+<font-awesome-icon icon="user-secret" />
+
   <div class="cards-wrapper py-4">
     <div
       class="service card-effect col-sm-5 col-lg-2"

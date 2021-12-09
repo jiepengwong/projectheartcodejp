@@ -33,7 +33,7 @@
                   {{ card.description }}
                   
                   <br>
-                  <a :href="card.url" class="btn btn-primary mt-3">Find out more</a>
+                  <a :href="card.url" target="_blank" class="btn btn-primary mt-3">Find out more</a>
                 </p>
             </div>
           </div>

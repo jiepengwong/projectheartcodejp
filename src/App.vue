@@ -7,6 +7,7 @@
 
   <Navbar />
   <section id="landing">
+
   <LandingSection/>
   </section>
   <section id="educate">
@@ -25,6 +26,8 @@
     <HelpLine/>
   </section>
 
+  <Footer/>
+
 </template>
 
 <script>
@@ -34,6 +37,7 @@
   import Symptoms from "@/components/Symptoms.vue"
   import Tips from "@/components/Tips.vue"
   import HelpLine from "@/components/Helpline.vue"
+  import Footer from "@/components/Footer.vue"
 
 
 
@@ -46,19 +50,13 @@
       Statistics,
       Symptoms,
       Tips,
-      HelpLine
+      HelpLine,
+      Footer
     },
 
     data() {},
 
-    methods: {
-      scrollMeTo(refName) {
-        var element = this.$refs[refName];
-        var top = element.offsetTop;
-
-        window.scrollTo(0, top);
-      },
-    },
+   
   };
 </script>
 
@@ -96,4 +94,7 @@
   #tips{
     background:  #ffe6cd;
   }
+ 
+
+  
 </style>
